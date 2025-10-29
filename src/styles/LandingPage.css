@@ -1,0 +1,29 @@
+.hero {
+text-align: center;
+padding: 100px 20px;
+position: relative;
+background: linear-gradient(135deg, #4caf50, #2e7d32);
+color: white;
+overflow: hidden;
+}
+.hero .circle {
+position: absolute;
+top: 30px;
+left: 40px;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background: rgba(255,255,255,0.2);
+}
+.hero .wave {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+.footer {
+text-align: center;
+padding: 20px;
+background: #222;
+color: #fff;
+}
